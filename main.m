@@ -9,6 +9,9 @@ clc;
 
 imdir=dir('images\depth\*.png');
 addpath('images\depth\');
+mkdir('results\GGT');
+mkdir('results\GT');
+
 Tr = 1;  % 1: GGT 
 c = 0.16; % fractional edge weight
 % m_g = 4;  % mean of gap
